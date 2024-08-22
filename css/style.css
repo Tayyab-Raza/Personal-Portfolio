@@ -144,6 +144,12 @@ a:not([href]):not([tabindex]) {
   a:not([href]):not([tabindex]):focus {
     outline: 0; }
 
+    @media (max-width: 950px) {
+      .chg1{
+        overflow-y:scroll !important;
+        overflow-x:hidden !important;
+      } }
+
 pre,
 code,
 kbd,
